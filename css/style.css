@@ -132,6 +132,53 @@ main {
   padding-left: 1.4rem;
 }
 
+/* Work experience bubbles */
+
+.work-experience {
+  margin-top: 3rem;
+}
+
+.work-experience h2 {
+  font-family: "Charlottefont", Georgia, serif;
+  font-size: 2.25rem;
+  font-weight: normal;
+  margin: 0 0 1.25rem;
+  text-align: center;
+}
+
+.job {
+  background: #fff;
+  border: 1px solid #d4cfc6;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.job-title {
+  margin: 0 0 0.25rem;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.job-meta {
+  margin: 0 0 0.75rem;
+  color: #5a5a5a;
+  font-size: 0.95rem;
+}
+
+.job ul {
+  margin: 0;
+  padding-left: 1.3rem;
+}
+
+.job li {
+  margin-bottom: 0.35rem;
+}
+
+.job li:last-child {
+  margin-bottom: 0;
+}
+
 .site-footer {
   text-align: center;
   padding: 2rem 1rem;
