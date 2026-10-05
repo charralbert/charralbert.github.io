@@ -25,7 +25,7 @@
 
     <p>
       <h2>The Architecture</h2>
-      For further in depth, please refer to my paper below.
+      For further in depth, please refer to my paper at the bottom of the page.
         <h3>Activity Engine</h3>
           An <i>activity score</i> is computed using normalized components generated from the user; the distance of their head 
           and hands, velocity, acceleration, and two indicator variables for the hands indicating if they are raised above shoulder level.
@@ -36,8 +36,8 @@
           curious behavior as a head tilt. Lastly, levels 3a and 3b correspond to emotional bonding and partnership, where the robot demonstrates
           happy idle behavior such as dancing or bouncing. Trust is represented by a numerical value which accumulates over time, but 
           is incremented or decremented over time depending on the values of the components computed for the activity score. The trust score is computed using
-          the equation below
-          <p>
+          the equation below:
+          <p class="equation">
             <i>T</i>(<i>t</i>) = <i>r</i><sub>trust</sub>(<i>t</i> − <i>t</i><sub>0</sub>)<br>
             − <i>w</i><sub>dist head</sub><i>I</i>(<i>d</i><sub>head</sub>, <i>τ</i><sub>head</sub>)<br>
             + <i>w</i><sub>dist hand</sub><i>I</i>(<i>d</i><sub>hand</sub>, <i>τ</i><sub>hand</sub>)<br>
